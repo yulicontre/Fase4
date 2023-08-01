@@ -1,0 +1,30 @@
+.contenedor  {
+    display: grid;
+    grid-template-areas:
+    ' A A A A'
+    ' B B B B'
+ 
+}
+header {
+    grid-area: A;
+    background-color: #16463a;
+    color:white;
+}
+
+
+main {
+    grid-area: B;
+    background-color: rgb(225, 238, 229);
+    width: 90%;
+    padding-right: 30px;
+    padding-left: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-top: 30px;
+    
+
+}
+.centrado{
+    text-align: center;
+    
+}
